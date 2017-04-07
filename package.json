@@ -1,0 +1,17 @@
+{
+    "buildNpmdoc":"karma-spec-reporter",
+    "devDependencies": {
+        "karma-spec-reporter": "*",
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "name":"npmdoc-karma-spec-reporter",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmdoc/node-npmdoc-karma-spec-reporter"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh"
+    },
+    "version": "0.0.1"
+}
